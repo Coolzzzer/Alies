@@ -5,8 +5,6 @@ class classWords {
     this.translate = translate
   }
 }
-
-
 const words1 = [
   new classWords("Easy", "air", "воздух"), 
   new classWords("Easy", "animal", "животное"), 
@@ -106,28 +104,228 @@ const words1 = [
   new classWords("Easy", "wood", "лес"), 
   new classWords("Easy", "word", "слово"), 
   new classWords("Easy", "world", "мир"), 
-  new classWords("Easy", "year", "год") 
+  new classWords("Easy", "year", "год"),
+  new classWords("Easy","apple", "яблоко"),
+  new classWords("MEasy", "orange", "апельсин"),
+  new classWords("Easy","banana", "банан") ,
+  new classWords("Easy", "grape", "грейпфрукт"),
+  new classWords("Easy", "kiwi", "киви")   
 ];
 const words2 = [
+  new classWords("Middle", "abolish", "отменять"),
+  new classWords("Middle", "addiction", "зависимость"),
+  new classWords("Middle", "agriculture", "сельское хозяйство"),
+  new classWords("Middle", "amateur", "любитель"),
+  new classWords("Middle", "ambassador", "посол"),
+  new classWords("Middle", "ambulance", "скорая помощь"),
+  new classWords("Middle", "anger", "злость"),
+  new classWords("Middle", "approve", "одобрять"),
+  new classWords("Middle", "apron", "фартук"),
+  new classWords("Middle", "arrange", "организовывать"),
+  new classWords("Middle", "arrogant", "высокомерный"),
+  new classWords("Middle", "boast", "хвастаться"),
+  new classWords("Middle", "bodyguard", "телохранитель"),
+  new classWords("Middle", "canteen", "столовая"),
+  new classWords("Middle", "celebrity", "знаменитость"),
+  new classWords("Middle", "childhood", "детство"),
+  new classWords("Middle", "civilian", "штатский"),
+  new classWords("Middle", "collapse", "Разрушаться"),
+  new classWords("Middle", "commercial", "рекламный ролик"),
+  new classWords("Middle", "commission", "комиссия"),
+  new classWords("Middle", "confidence", "уверенность"),
+  new classWords("Middle", "contemptuous", "презрительный"),
+  new classWords("Middle", "contribute", "делать пожертвования"),
+  new classWords("Middle", "convenient", "удобный"),
+  new classWords("Middle", "correspondence", "переписка"),
+  new classWords("Middle", "courage", "смелость"),
+  new classWords("Middle", "craving", "страстное желание"),
+  new classWords("Middle", "crawl", "ползать"),
+  new classWords("Middle", "creative", "творческий"),
+  new classWords("Middle", "dedication", "верность"),
+  new classWords("Middle", "deliver", "доставлять"),
+  new classWords("Middle", "depth", "глубина"),
+  new classWords("Middle", "descend", "спускаться"),
+  new classWords("Middle", "destination", "назначение"),
+  new classWords("Middle", "deteriorate", "ухудшать"),
+  new classWords("Middle", "disappointment", "разочарование"),
+  new classWords("Middle", "dismiss", "Отпускать"),
+  new classWords("Middle", "dissolve", "Разрушать"),
+  new classWords("Middle", "distribute", "распространять"),
+  new classWords("Middle", "district", "район"),
+  new classWords("Middle", "elaborate", "разрабатывать"),
+  new classWords("Middle", "eligible", "имеющий право"),
+  new classWords("Middle", "embarrassment", "затруднение"),
+  new classWords("Middle", "emergency", "критическое положение"),
+  new classWords("Middle", "entourage", "окружение"),
+  new classWords("Middle", "evidence", "доказательство"),
+  new classWords("Middle", "extinction", "вымирание"),
+  new classWords("Middle", "famine", "голод"),
+  new classWords("Middle", "flood", "потоп"),
+  new classWords("Middle", "generosity", " щедрость"),
+  new classWords("Middle", "gluttony", "обжорство"),
+  new classWords("Middle", "hiccup", "икота"),
+  new classWords("Middle", "honesty", "честность"),
+  new classWords("Middle", "household", "Быт"),
+  new classWords("Middle", "humanity", "человечество"),
+  new classWords("Middle", "humiliate", "унижать"),
+  new classWords("Middle", "interpret", "толковать"),
+  new classWords("Middle", "investigate", "исследовать"),
+  new classWords("Middle", "justice", "справедливость"),
+  new classWords("Middle", "kindness", "доброта"),
+  new classWords("Middle", "knowledge", "знание"),
+  new classWords("Middle", "landlord", "землевладелец"),
+  new classWords("Middle", "liberty", "свобода"),
+  new classWords("Middle", "maintain", "поддерживать"),
+  new classWords("Middle", "mature", "зрелый"),
+  new classWords("Middle", "mirror", "зеркало"),
+  new classWords("Middle", "naughty", "непослушный"),
+  new classWords("Middle", "patience", "терпение"),
+  new classWords("Middle", "persuade", "убеждать"),
+  new classWords("Middle", "petrol", "бензин"),
+  new classWords("Middle", "pleasure", "удовольствие"),
+  new classWords("Middle", "prejudice", "предубеждение"),
+  new classWords("Middle", "prescription", "рекомендация"),
+  new classWords("Middle", " profit", "выгода"),
+  new classWords("Middle", " promotion", "продвижение"),
+  new classWords("Middle", " prosecutor", "прокурор"),
+  new classWords("Middle", "quarrel", "ссора"),
+  new classWords("Middle", "rapport", "хорошие отношения"),
+  new classWords("Middle", "referee", "судья"),
+  new classWords("Middle", "reference book", "справочник"),
+  new classWords("Middle", "rehearsal", "репетиция"),
+  new classWords("Middle", "remarkable", "значительный"), 
+  new classWords("Middle", "resentment", "негодование"),
+  new classWords("Middle", "ruthless", "безжалостный"),
+  new classWords("Middle", "satchel", "сумка"),
+  new classWords("Middle", "software", "программное обеспечение"),
+  new classWords("Middle", "spokesman", "представитель"),
+  new classWords("Middle", "squeeze", "Сжимать"),
+  new classWords("Middle", "stationary", "неизменный"),
+  new classWords("Middle", "sufficient", "достаточный"),
+  new classWords("Middle", "superstition", "суеверие"),
+  new classWords("Middle", "surgeon", "хирург"),
+  new classWords("Middle", "surveyor", "землемер"), 
+  new classWords("Middle", "suspect", "подозревать"),
+  new classWords("Middle", "vacancy", "свободное (рабочее) место"), 
+  new classWords("Middle", "vain", "тщеславный"),
+  new classWords("Middle", "valuable", "ценный"),
+  new classWords("Middle", "walkie-talkie", "портативная рация"),
+  new classWords("Middle", "whistle", "свистеть"),
+  new classWords("Middle", "withdraw", "извлекать"),
   new classWords("Middle", "cherry", "вишня"),
-  new classWords("Easy","apple", "яблоко"),
-  new classWords("Middle", "orange", "апельсин") 
 ];
 const words3 = [
-  new classWords("Easy","banana", "банан") ,
-  new classWords("Hard", "grape", "грейпфрукт"),
-  new classWords("Hard", "kiwi", "киви") 
+  new classWords("Hard", "abjure", "отказываться "), 
+  new classWords("Hard", "ambidextrous", "владеющий двумя руками"),
+  new classWords("Hard", "aphoristic", "афористичный"),
+  new classWords("Hard", "augury", "предсказание"),
+  new classWords("Hard", "avariciousалчный"),
+  new classWords("Hard", "blandishment", "уговаривание"),
+  new classWords("Hard", "boor", "грубиян"),
+  new classWords("Hard", "canonical", "уставной"),
+  new classWords("Hard", "commensurate", "Соответственный"),
+  new classWords("Hard", "culpability", "виновность"),
+  new classWords("Hard", "cumbersome", "громоздкий"),
+  new classWords("Hard", "dangle", "болтаться"),
+  new classWords("Hard", "dearth", "дефицит"),
+  new classWords("Hard", "deference", "уважение"),
+  new classWords("Hard", "deliberate", "преднамеренный"),
+  new classWords("Hard", "delineate", "набрасывать"),
+  new classWords("Hard", "derogatory", "унизительный"),
+  new classWords("Hard", "dexterity", "ловкость"),
+  new classWords("Hard", "diaphanous", "прозрачный"),
+  new classWords("Hard", "diligent", "Старательный"),
+  new classWords("Hard", "discernment", "проницательность"),
+  new classWords("Hard", "disparage", "унижать достоинство"),
+  new classWords("Hard", "dispatch", "отправление"),
+  new classWords("Hard", "docile", "восприимчивый"),
+  new classWords("Hard", "doleful", "скорбный"),
+  new classWords("Hard", "dormant", "дремлющий"),
+  new classWords("Hard", "drought", "засуха"),
+  new classWords("Hard", "encomium", "восхваление"),
+  new classWords("Hard", "epistemology", "теория познания"),
+  new classWords("Hard", "equivocation", "уклонение"),
+  new classWords("Hard", "extant", "сохранившийся"),
+  new classWords("Hard", "extirpate", "вырывать с корнем"),
+  new classWords("Hard", "feckless", "беспомощный"),
+  new classWords("Hard", "froward", "своевольный"),
+  new classWords("Hard", "glib", "свободный"),
+  new classWords("Hard", "halcyon", "безмятежный"),
+  new classWords("Hard", "imperturbability", "невозмутимость"),
+  new classWords("Hard", "impugned", "опровергнутый"),
+  new classWords("Hard", "incise", "надрезать"),
+  new classWords("Hard", "inveigle", "заманивать"),
+  new classWords("Hard", "maudlin", "плаксивый"),
+  new classWords("Hard", "meretricious", "распутный"),
+  new classWords("Hard", "minatory", "угрожающий"),
+  new classWords("Hard", "moralistic", "поучающий"),
+  new classWords("Hard", "ossified", "окостеневший"),
+  new classWords("Hard", "ostracism", "гонение"),
+  new classWords("Hard", "parsimonious", "бережливый"),
+  new classWords("Hard", "pejorative", "уничижительный"),
+  new classWords("Hard", "penchant", "склонность"),
+  new classWords("Hard", "perch", "жердочка для птиц"),
+  new classWords("Hard", "pervade", "Заполнять"),
+  new classWords("Hard", "petulant", "нетерпеливый"),
+  new classWords("Hard", "philanthropy", "благотворительность"),
+  new classWords("Hard", "philistine", "обыватель"),
+  new classWords("Hard", "pillage", "мародерство"),
+  new classWords("Hard", "plumb", "явный"),
+  new classWords("Hard", "ponderous", "тяжеловесный"),
+  new classWords("Hard", "postulate", "аксиома"),
+  new classWords("Hard", "precipitous", "обрывистый"),
+  new classWords("Hard", "precursor", "предшественник"),
+  new classWords("Hard", "presumptuous", "самонадеянный"),
+  new classWords("Hard", "prevail", "восторжествовать"),
+  new classWords("Hard", "probity", "честность"),
+  new classWords("Hard", "prodigious", "чрезмерный"),
+  new classWords("Hard", "prodigy", "одаренный человек"),
+  new classWords("Hard", "proliferate", "Распространяться"),
+  new classWords("Hard", "prolific", "плодородный"),
+  new classWords("Hard", "proprietary", "собственнический"),
+  new classWords("Hard", "provident", "предвидящий"),
+  new classWords("Hard", "proximity", "близость"),
+  new classWords("Hard", "prudent", "благоразумный"),
+  new classWords("Hard", "quintessential", "наиболее типичный"),
+  new classWords("Hard", "raconteur", "рассказчик"),
+  new classWords("Hard", "rarefy", "разжижаться"),
+  new classWords("Hard", "refulgent", "сверкающий"),
+  new classWords("Hard", "repine", "жаловаться"),
+  new classWords("Hard", "runic", "рунический"),
+  new classWords("Hard", "solicitous", "внимательный"),
+  new classWords("Hard", "stipulate", "ставить условием"),
+  new classWords("Hard", "subliminal", "подсознательный"),
+  new classWords("Hard", "throwback", "движение назадм"),
+  new classWords("Hard", "untoward", "упрямый"),
+  new classWords("Hard", "venerate", "благоговеть"),
+  new classWords("Hard", "verisimilar", "правдоподобный"),
+  new classWords("Hard", "vestige", "частица"),
+  new classWords("Hard", "vigilance", "бдительность"),
+  new classWords("Hard", "vilify", "чернить"),
+  new classWords("Hard", "vindicate", "доказывать"),
+  new classWords("Hard", "visionary", "мечтательный"),
+  new classWords("Hard", "vitriolic", "саркастический"),
+  new classWords("Hard", "vituperate", "бранить"),
+  new classWords("Hard", "volatile", "Непостоянный"),
+  new classWords("Hard", "voluptuous", "чувственный"),
+  new classWords("Hard", "whittle", "большой нож"),
 ];
 const startMenu = document.querySelector("#startMenu"); 
 const randomWords = document.querySelector("#output");
 const counter = document.querySelector("#counter");
 let selectTime = document.querySelector("#selectTime");
 let selectPoints = document.querySelector("#selectPoints");
-
 const level1 = document.querySelector("#level1");
 const level2 = document.querySelector("#level2");
 const level3 = document.querySelector("#level3");
 const start = document.querySelector("#start");
+const ready = document.querySelector("#ready");
+const errors = document.querySelector("#errors");
+const error1 = document.querySelector("#error1");
+const error2 = document.querySelector("#error2");
+const error3 = document.querySelector("#error3");
+const error4 = document.querySelector("#error4");
+const error5 = document.querySelector("#error5");
 const timer = document.querySelector("#timer");
 const yes = document.querySelector("#yes");
 const no = document.querySelector("#no");
@@ -170,6 +368,9 @@ function endTime(a){a.addEventListener('click', function() {
   next.style.display = "none";
   start.style.display = "block";
   zeroPoints(teams);
+  start.style.display = "none";
+  ready.style.display = "block";
+  ready.style.margin = "10px auto";
 });
 }
 function btnHidden() {
@@ -294,8 +495,51 @@ start.onclick = function(){
   switchTeams();
   start.style.display = "none";
   btnHidden();
-  teamClick(teams[0]);
+  teamClick(teams[0]); 
 }
 render(start);
 endTime(exit);
 startTime(next);
+
+start.style.display = "none";
+
+function check(){
+  let TeamA = document.querySelector("#TeamA");
+  let TeamB = document.querySelector("#TeamB");
+  clear();
+  if(TeamA.value === '')
+  { 
+    errors.style.display = "block";
+    error1.innerHTML = "select a name team 1"
+  } 
+  if(TeamB.value === '')
+  {
+    errors.style.display = "block";
+    error2.innerHTML = "select a name team 2"
+  } 
+  if (status == 0){
+    errors.style.display = "block";
+    error3.innerHTML = "select a level"
+  }
+  if(selectTime.value === ''){
+    errors.style.display = "block";
+    error4.innerHTML = "select time"
+  }
+  if(selectPoints.value === ''){
+    errors.style.display = "block";
+    error5.innerHTML = "select points"
+  }
+  if(TeamB.value !== '' && TeamA.value !== '' && status !== 0 && selectTime.value !== '' && selectPoints.value !== '')
+  {
+    ready.style.display = "none";
+    errors.style.display = "none";
+    start.style.display = "block";
+  }
+}
+function clear(){
+  error1.innerHTML = "";
+  error2.innerHTML = "";
+  error3.innerHTML = "";
+  error4.innerHTML = "";
+  error5.innerHTML = "";
+}
