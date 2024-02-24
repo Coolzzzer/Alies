@@ -369,7 +369,7 @@ function endTime(a){a.addEventListener('click', function() {
   start.style.display = "block";
   zeroPoints(teams);
   start.style.display = "none";
-  ready.style.display = "block";
+  ready.style.display = "flex";
   ready.style.margin = "10px auto";
 });
 }

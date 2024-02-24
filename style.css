@@ -136,11 +136,14 @@ input{
 }
 
 #ready{
+    display: flex;
     background-color: rgb(207, 51, 72);
     width: 40%;
     border-radius: 20px;
     margin-top: 10px;
     font-size: 20px; 
+    justify-content: center;
+    margin: 10px auto;
 }
 #errors{
     font-size: 25px;
