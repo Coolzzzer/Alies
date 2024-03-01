@@ -521,11 +521,19 @@ function check(){
     errors.style.display = "block";
     error3.innerHTML = "select a level"
   }
+	if(selectTime.value <=0){
+    errors.style.display = "block";
+    error4.innerHTML = "choose a positive time"
+  }
   if(selectTime.value === ''){
     errors.style.display = "block";
     error4.innerHTML = "select time"
   }
-  if(selectPoints.value === ''){
+	if(selectPoints.value <=0){
+    errors.style.display = "block";
+    error5.innerHTML = "choose a positive points"
+  }
+	if(selectPoints.value === ''){
     errors.style.display = "block";
     error5.innerHTML = "select points"
   }
