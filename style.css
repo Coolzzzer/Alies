@@ -1,0 +1,155 @@
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(244, 218, 247);
+}
+.container{
+    display: flex;
+    background-color: rgb(105, 63, 53);
+    justify-content: center;
+    width: 480px;
+    height: 510px;
+    margin: auto;
+    border-radius: 50px;
+    padding: 30px;
+    color: rgb(207, 51, 137);
+    font-family: Inter, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+button{
+    background-color:rgb(156, 65, 88);
+    color: rgb(105, 53, 83); 
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 19px;
+    text-transform: uppercase;
+    color: rgb(244, 218, 247);
+    text-shadow: rgb(255, 0, 119) 2px 2px 5px;
+    margin: auto 2px;
+}
+button:hover{
+    background-color:rgb(138, 56, 83);
+    font-size: 16px;
+}
+input{
+    color: rgb(105, 63, 53);
+    width: 95%;
+    display: flex;
+    border-radius: 4px;
+    border: none; 
+    padding: 5px;
+    margin: 10px auto;
+    background-color: rgb(244, 218, 247);
+}
+.name{
+    background-color: rgb(207, 51, 72);
+    font-size: 40px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    color: rgb(244, 218, 247);
+    padding: 10px 0;
+    border-radius: 50%;
+    text-decoration: underline;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto ;
+}
+#start{
+    width: 60%;
+    color: rgb(105, 53, 83); 
+    background-color: rgb(244, 218, 247);
+    display: flex;
+    text-shadow: none;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+}
+#start:hover{
+    color: rgb(85, 44, 68); 
+    font-size: 25px;
+}
+#output{
+    color: rgb(244, 218, 247);
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+#generatorRandomWords{
+    width: 80%;
+    display: flex;
+    margin: 25px auto;
+    flex-wrap: nowrap;
+}
+.word{
+    background-color: rgba(133, 114, 133, 0.356);
+    font-size: 38px;
+    text-transform: lowercase;
+    display: flex;
+    margin: auto ;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#timer{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(244, 218, 247, 0.068);
+    margin-bottom: 20px;
+}
+#counter{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    margin: 10px 0;
+}
+#next{
+    background-color: rgb(73, 18, 70);
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+#exit{
+    margin: 5px auto;
+    display: flex;
+    background-color: rgb(73, 18, 26);
+    justify-content: center;
+    width: 70%;
+}
+#no:hover, #exit:hover, #ready:hover{
+    background-color:rgb(156, 45, 50);
+    font-size: 25px; 
+}
+#next:hover{
+    background-color:rgb(160, 46, 145);
+}
+.level{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+#ready{
+    display: flex;
+    background-color: rgb(207, 51, 72);
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 20px; 
+    justify-content: center;
+    margin: 10px auto;
+}
+#errors{
+    font-size: 25px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: rgb(244, 218, 247);
+    color: rgb(207, 51, 72);
+    font-family: Inter, sans-serif;
+}
